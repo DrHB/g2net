@@ -26,4 +26,10 @@ d = { 'settings': { 'audience': 'Developers',
                 'tst_flags': 'notest',
                 'user': 'DrHB',
                 'version': '0.0.1'},
-  'syms': {'g2net.preprocessing': {'g2net.preprocessing.good_luck': 'https://DrHB.github.io/g2net/preprocessing.html#good_luck'}}}
+  'syms': { 'g2net.preprocessing': { 'g2net.preprocessing.constrained_sum_sample_pos': 'https://DrHB.github.io/g2net/preprocessing.html#constrained_sum_sample_pos',
+                                     'g2net.preprocessing.get_random_name': 'https://DrHB.github.io/g2net/preprocessing.html#get_random_name',
+                                     'g2net.preprocessing.get_random_sqrtx_noise': 'https://DrHB.github.io/g2net/preprocessing.html#get_random_sqrtx_noise',
+                                     'g2net.preprocessing.good_luck': 'https://DrHB.github.io/g2net/preprocessing.html#good_luck',
+                                     'g2net.preprocessing.read_file': 'https://DrHB.github.io/g2net/preprocessing.html#read_file',
+                                     'g2net.preprocessing.read_timestemp': 'https://DrHB.github.io/g2net/preprocessing.html#read_timestemp',
+                                     'g2net.preprocessing.save_hdf': 'https://DrHB.github.io/g2net/preprocessing.html#save_hdf'}}}

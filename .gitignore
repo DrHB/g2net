@@ -159,3 +159,17 @@ checklink/cookies.txt
 .*.h5
 .*.csv
 .*.h5py
+*.sft
+*.hdf5
+*.hdf*
+
+
+*.sft
+nbs/PyFstat_example_data_ensemble/*
+*.pth
+EDA/EDA.ipynb
+
+
+
+
+git filter-branch --tree-filter 'rm -rf EDA/EDA.ipynb' HEAD
